@@ -1544,6 +1544,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@matthamlin/simple-cache@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@matthamlin/simple-cache@workspace:."
+  dependencies:
+    "@babel/cli": ^7.8.4
+    "@babel/core": ^7.9.6
+    "@babel/plugin-proposal-export-default-from": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.9.6
+    "@babel/plugin-transform-typescript": ^7.9.6
+    "@babel/preset-env": ^7.9.6
+    "@babel/preset-react": ^7.9.4
+    "@babel/runtime": ^7.9.6
+    "@testing-library/jest-dom": ^5.7.0
+    "@testing-library/react": ^10.0.4
+    "@types/jest": ^25.2.2
+    babel-jest: ^26.0.1
+    babel-plugin-styled-components: ^1.10.7
+    jest: ^26.0.1
+    react: experimental
+    react-dom: experimental
+    react-is: ^16.13.1
+    styled-components: ^5.1.0
+    typescript: ^3.9.2
+  peerDependencies:
+    "@babel/runtime": 7.10.3
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@sinonjs/commons@npm:^1.7.0":
   version: 1.7.2
   resolution: "@sinonjs/commons@npm:1.7.2"
@@ -6199,32 +6228,6 @@ fsevents@^2.1.2:
   checksum: 3/d325c316ac329ecb18f2b8cd3f85a80ab4a4105ada601b9253aaafae3fc14268e3cd874ccc265b6a08e60ebd17fbc31bd3dbc0d1018f874b536eb2a6e8ef6d9c
   languageName: node
   linkType: hard
-
-"template-project@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "template-project@workspace:."
-  dependencies:
-    "@babel/cli": ^7.8.4
-    "@babel/core": ^7.9.6
-    "@babel/plugin-proposal-export-default-from": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.9.6
-    "@babel/plugin-transform-typescript": ^7.9.6
-    "@babel/preset-env": ^7.9.6
-    "@babel/preset-react": ^7.9.4
-    "@babel/runtime": ^7.9.6
-    "@testing-library/jest-dom": ^5.7.0
-    "@testing-library/react": ^10.0.4
-    "@types/jest": ^25.2.2
-    babel-jest: ^26.0.1
-    babel-plugin-styled-components: ^1.10.7
-    jest: ^26.0.1
-    react: experimental
-    react-dom: experimental
-    react-is: ^16.13.1
-    styled-components: ^5.1.0
-    typescript: ^3.9.2
-  languageName: unknown
-  linkType: soft
 
 "terminal-link@npm:^2.0.0":
   version: 2.1.1

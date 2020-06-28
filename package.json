@@ -1,19 +1,20 @@
 {
-  "name": "template-project",
-  "version": "1.0.0",
+  "name": "@matthamlin/simple-cache",
+  "version": "1.4.0",
   "main": "dist/index.js",
   "source": "src/index.tsx",
-  "repository": "git@github.com:hamlim/template-project.git",
+  "repository": "git@github.com:hamlim/simple-cache.git",
   "author": "Matt Hamlin <matthewjameshamlin@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "babel src/ --out-dir dist/ --extensions '.ts,.tsx'",
-    "test": "jest",
-    "test-watch": "jest --watch",
-    "test-cov": "jest --collectCoverage",
     "prepub": "yarn build",
     "pub": "yarn prepub && yarn npm publish --access public",
     "tsc": "yarn dlx --package typescript tsc"
+  },
+  "peerDependencies": {
+    "@babel/runtime": "7.10.3",
+    "react": "*"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
