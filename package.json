@@ -1,8 +1,11 @@
 {
   "name": "@matthamlin/simple-cache",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "main": "dist/index.js",
   "source": "src/index.tsx",
+  "files": [
+    "*"
+  ],
   "repository": "git@github.com:hamlim/simple-cache.git",
   "author": "Matt Hamlin <matthewjameshamlin@gmail.com>",
   "license": "MIT",
