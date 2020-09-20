@@ -19,13 +19,14 @@ export function useCache(
       cache: Cache
       key: string
     }): boolean => true,
+    shouldRefetch = (key: string): boolean => false,
   } = {},
 ) {
   // Cache the current value locally, with use state.
   let [value, setValue] = useState(null)
   let [prevKey, setPrevKey] = useState(null)
 
-  if (key !== prevKey) {
+  if (key !== prevKey || shouldRefetch(key)) {
     // When the key changes, we need to update the locally cached value. Read
     // the corresponding value from the cache using Suspense.
     value = readCache(cache, key, miss)
