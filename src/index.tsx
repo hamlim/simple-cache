@@ -2,9 +2,15 @@ import * as React from 'react'
 
 const { useState, useEffect } = React
 
-type Cache = Map<string, any>
+type Rec = {
+  status: number
+  value: unknown
+  error?: Error
+}
 
-type Miss = () => Promise<any>
+type Cache = Map<string, Rec>
+
+type Miss = () => Promise<unknown>
 
 export function useCache(
   // A map of key => record (storing the miss response)
@@ -79,7 +85,7 @@ function readCache(cache: Cache, key: string, miss: Miss) {
       (value) => {
         if (record.status === PENDING) {
           record.status = RESOLVED
-          record.value = value
+          record.value = value as any
         }
       },
       (error) => {
