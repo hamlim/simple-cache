@@ -11,7 +11,7 @@ import { useCache } from '@matthamlin/simple-cache/client'
 
 let cache = new Map()
 
-interface Result = {
+interface Result {
   something: boolean
 }
 
@@ -25,17 +25,17 @@ function useFetch(endpoint) {
 Or with Server Components (experimental):
 
 ```tsx
-import { useCache } from '@matthamlin/simple-cache/server';
+import { useCache } from '@matthamlin/simple-cache/server'
 
-let cache = new Map();
+let cache = new Map()
 
-interface Result = {
+interface Result {
   something: boolean
 }
 
 function useData(endpoint) {
   return useCache<Result>(cache, endpoint, () =>
-    fetch(endpoint).then(res => res.json()),
+    fetch(endpoint).then((res) => res.json()),
   )
 }
 ```
