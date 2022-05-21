@@ -10,10 +10,10 @@
   "author": "Matt Hamlin <matthewjameshamlin@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "babel src/ --out-dir dist/ --extensions '.ts,.tsx'",
+    "build": "rm -rf dist && babel src/ --out-dir dist/ --extensions '.ts,.tsx' && tsc --declaration --emitDeclarationOnly --outDir dist",
     "prepub": "pnpm build",
     "pub": "pnpm prepub && pnpm npm publish --access public",
-    "type-check": "tsc"
+    "type-check": "tsc --noEmit"
   },
   "peerDependencies": {
     "@babel/runtime": "^7",
