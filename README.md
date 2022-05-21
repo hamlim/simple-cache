@@ -51,7 +51,7 @@ function useData(endpoint) {
 #### Sharing a cache between the server and the client:
 
 <!-- prettier-ignore -->
-> **Note:** 
+> **Note** 
 > I haven't done extensive testing with this approach, but it could
 > work!
 
@@ -68,7 +68,7 @@ As long as the keys are equivalent, this should allow you to avoid double
 fetching on the client.
 
 <!-- prettier-ignore -->
-> **Note:**
+> **Note**
 > This doesn't yet work for _pending_ `useCache` calls, not that I'd
 > expect the server to flush those to the client 🤔
 
