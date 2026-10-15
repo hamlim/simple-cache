@@ -34,10 +34,10 @@ importers:
         version: 7.18.0
       react:
         specifier: experimental
-        version: 0.0.0-experimental-99e86060-20260623
+        version: 0.0.0-experimental-b618bbb4-20261007
       react-dom:
         specifier: experimental
-        version: 0.0.0-experimental-99e86060-20260623(react@0.0.0-experimental-99e86060-20260623)
+        version: 0.0.0-experimental-b618bbb4-20261007(react@0.0.0-experimental-b618bbb4-20261007)
       typescript:
         specifier: ^4.6.4
         version: 4.6.4
@@ -753,8 +753,8 @@ packages:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
 
-  brace-expansion@1.1.11:
-    resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
+  brace-expansion@1.1.21:
+    resolution: {integrity: sha512-9zeA+KLZNNzglF2TPKRQEDyx6Yby7daAkuy8MiPzpXPsYDWi/DRM8jmwUDxokQjYqBpv5DgPiwD4h4ZZSy1Ujw==}
 
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
@@ -977,13 +977,13 @@ packages:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
 
-  react-dom@0.0.0-experimental-99e86060-20260623:
-    resolution: {integrity: sha512-ocfoSLwjgdBRe5HCpLLaFJS3jA4HWzNA8oH0bVAyOPhDhqdY/N2fAzow88anpE6W1Mro7mWswGoyZUbjxulPfA==}
+  react-dom@0.0.0-experimental-b618bbb4-20261007:
+    resolution: {integrity: sha512-DXGHjHDdozS7p6D6K9pMtAIAyEVzuSjXpyzcaN10j1p4Z9xbgSWkGQdclTvZbNo3lOFv23HFkLsQO084NWIidA==}
     peerDependencies:
-      react: 0.0.0-experimental-99e86060-20260623
+      react: 0.0.0-experimental-b618bbb4-20261007
 
-  react@0.0.0-experimental-99e86060-20260623:
-    resolution: {integrity: sha512-SMJh+79N2JchHBBat39YF1e2pW0+izNko1ZbURsHHZT5SkIYGSFTfCdl/VwCdDHBQc6YMOmp/0P+IVFhFbbXEA==}
+  react@0.0.0-experimental-b618bbb4-20261007:
+    resolution: {integrity: sha512-dX8BmtE6Ai15tvv4wvouJqMg8G5dSmdUGNB3qbUNK06vt8jKAi91X6hk3eXajQUIjsDIDUbD4Q0mHGl4NIILXQ==}
     engines: {node: '>=0.10.0'}
 
   readdirp@3.6.0:
@@ -1021,8 +1021,8 @@ packages:
   safe-buffer@5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
 
-  scheduler@0.0.0-experimental-99e86060-20260623:
-    resolution: {integrity: sha512-Ju3qqIEG8bfPm1GZT4z/WXPyrq9ji1y3Ngrfa0zuj0vLrI7fRd6tAVh6jA2ctRqUcIvpJzqeGU5DELz8RvxL+w==}
+  scheduler@0.0.0-experimental-b618bbb4-20261007:
+    resolution: {integrity: sha512-oEq2bn8d00QwhQ7JoPK1M4qmXtqTOtFkxxYmmXnAIJ3VaQ7hTMXl3acA4KjaKkpfdz+nxIbof4qLyOcr4zsvOQ==}
 
   semver@5.7.2:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
@@ -1976,7 +1976,7 @@ snapshots:
   binary-extensions@2.2.0:
     optional: true
 
-  brace-expansion@1.1.11:
+  brace-expansion@1.1.21:
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
@@ -2154,7 +2154,7 @@ snapshots:
 
   minimatch@3.1.2:
     dependencies:
-      brace-expansion: 1.1.11
+      brace-expansion: 1.1.21
 
   ms@2.1.3: {}
 
@@ -2189,12 +2189,12 @@ snapshots:
 
   pify@4.0.1: {}
 
-  react-dom@0.0.0-experimental-99e86060-20260623(react@0.0.0-experimental-99e86060-20260623):
+  react-dom@0.0.0-experimental-b618bbb4-20261007(react@0.0.0-experimental-b618bbb4-20261007):
     dependencies:
-      react: 0.0.0-experimental-99e86060-20260623
-      scheduler: 0.0.0-experimental-99e86060-20260623
+      react: 0.0.0-experimental-b618bbb4-20261007
+      scheduler: 0.0.0-experimental-b618bbb4-20261007
 
-  react@0.0.0-experimental-99e86060-20260623: {}
+  react@0.0.0-experimental-b618bbb4-20261007: {}
 
   readdirp@3.6.0:
     dependencies:
@@ -2236,7 +2236,7 @@ snapshots:
 
   safe-buffer@5.1.2: {}
 
-  scheduler@0.0.0-experimental-99e86060-20260623: {}
+  scheduler@0.0.0-experimental-b618bbb4-20261007: {}
 
   semver@5.7.2: {}
 
