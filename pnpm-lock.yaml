@@ -34,10 +34,10 @@ importers:
         version: 7.18.0
       react:
         specifier: experimental
-        version: 0.0.0-experimental-b618bbb4-20261007
+        version: 0.0.0-experimental-098d2e87-20261015
       react-dom:
         specifier: experimental
-        version: 0.0.0-experimental-b618bbb4-20261007(react@0.0.0-experimental-b618bbb4-20261007)
+        version: 0.0.0-experimental-098d2e87-20261015(react@0.0.0-experimental-098d2e87-20261015)
       typescript:
         specifier: ^4.6.4
         version: 4.6.4
@@ -744,8 +744,8 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  baseline-browser-mapping@2.10.38:
-    resolution: {integrity: sha512-31/02mVB4yuQU6adKk5SlY6m+mxDwUq5KZkyYgnLrrKl7TEm1+3PyDtDBz2kOv/wxZz41GHsvV1A/u6RmiyBvw==}
+  baseline-browser-mapping@2.11.28:
+    resolution: {integrity: sha512-br0LOmjJqr6Rt4AEkadbcNf67Zpo7EPwKsWbjnRrJIa1QYFHQBqM4C7F2WTbV8ahTEcg1Eo+Y0aWjjORInYFyA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -760,24 +760,16 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
-  browserslist@4.20.3:
-    resolution: {integrity: sha512-NBhymBQl1zM0Y5dQT/O+xiLP9/rzOIQdKM/eMJBAq7yBgaB6krIYLGejrwVYnSHZdqjscB1SPuAjHwxjvN6Wdg==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-
-  browserslist@4.28.4:
-    resolution: {integrity: sha512-MTc8i/x9jBQd1iMw2CFGS+rwMa07eYjLR0CCTLDACl9xhxy+nIs3KeML/biicXtk9JrZ6dnnTatmc7ErPXIxqw==}
+  browserslist@4.29.3:
+    resolution: {integrity: sha512-1R4kiYKXGViqEN0CnoDrXc1StD9niAwu+j2dukWzrD4bJgsD4lDmEp0CRbc6E/vYJIfTHwPmwyaKtVSudICdPA==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
   call-bind@1.0.2:
     resolution: {integrity: sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==}
 
-  caniuse-lite@1.0.30001341:
-    resolution: {integrity: sha512-2SodVrFFtvGENGCv0ChVJIDQ0KPaS1cg7/qtfMaICgeMolDdo/Z2OD32F0Aq9yl6F4YFwGPBS5AaPqNYiW4PoA==}
-
-  caniuse-lite@1.0.30001799:
-    resolution: {integrity: sha512-hG1bReV+OUU+MOqK4t/ZWI0tZOyz3rqS9XuhOUz1cIcbwBKjOyJEJuw9ER5JuNyqxNk8u/JUVbGibBOL1yrjFw==}
+  caniuse-lite@1.0.30001816:
+    resolution: {integrity: sha512-+8Yx7BXCoqk6IF8yTicjfUR6D/ldJzdlsodlEOiOSPmhK844WIgk67/zIQaGAOxNkZyyvBlrRFnLvqKIoqbAFw==}
 
   chokidar@3.5.3:
     resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
@@ -812,15 +804,8 @@ packages:
     resolution: {integrity: sha512-uckOqKcfaVvtBdsVkdPv3XjveQJsNQqmhXgRi8uhvWWuPYZCNlzT8qAyblUgNoXdHdjMTzAqeGjAoli8f+bzPA==}
     engines: {node: '>= 0.4'}
 
-  electron-to-chromium@1.4.137:
-    resolution: {integrity: sha512-0Rcpald12O11BUogJagX3HsCN3FE83DSqWjgXoHo5a72KUKMSfI39XBgJpgNNxS9fuGzytaFjE06kZkiVFy2qA==}
-
-  electron-to-chromium@1.5.378:
-    resolution: {integrity: sha512-VinvOAuuPmdD1guEgGv5f2Qp7/vlfqOrUOMYNnOD4wj3pit8kRsQHzfIf6teyUGWo15Tg5+bOJaRunvyltpVWQ==}
-
-  escalade@3.1.1:
-    resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
-    engines: {node: '>=6'}
+  electron-to-chromium@1.5.456:
+    resolution: {integrity: sha512-8hboqI6xesozteFb8aa7OGknvxUtTeRJLz0FoePysUEh/oWbddykIGdgpEJRbPRg/nIMfBf2DFos+H2MtvJl2A==}
 
   escalade@3.2.0:
     resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
@@ -937,11 +922,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  node-releases@2.0.4:
-    resolution: {integrity: sha512-gbMzqQtTtDz/00jQzZ21PQzdI9PyLYqUSvD0p3naOhX4odFji0ZxYdnVwPTxmSwkmxhcFImpozceidSG+AgoPQ==}
-
-  node-releases@2.0.49:
-    resolution: {integrity: sha512-f06bl1D+8ZDkn2oOQQKAh5/otFWqVnM1Q5oerA8Pex7UfT66Tx4IPHIqVVFKqFT3FUtaDstdgkM7yT7JWhqxfw==}
+  node-releases@2.0.59:
+    resolution: {integrity: sha512-5qr2okC4ItAI0hG5SaV0HoYMpnM/Y6+Oqr7AmPYy/2uEoGvS+GbSKLeRxSS1uAdu59yz0ouzcuXievSgg///WA==}
     engines: {node: '>=18'}
 
   normalize-path@3.0.0:
@@ -977,13 +959,13 @@ packages:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
 
-  react-dom@0.0.0-experimental-b618bbb4-20261007:
-    resolution: {integrity: sha512-DXGHjHDdozS7p6D6K9pMtAIAyEVzuSjXpyzcaN10j1p4Z9xbgSWkGQdclTvZbNo3lOFv23HFkLsQO084NWIidA==}
+  react-dom@0.0.0-experimental-098d2e87-20261015:
+    resolution: {integrity: sha512-DokPfdIxHkf/ZzHREP+GVnVf9P5X1aXWxQhaFeslUVRCOopwUhpeXVWxIbLjcBUTCORyqg+c7zaIfq5KNStKaA==}
     peerDependencies:
-      react: 0.0.0-experimental-b618bbb4-20261007
+      react: 0.0.0-experimental-098d2e87-20261015
 
-  react@0.0.0-experimental-b618bbb4-20261007:
-    resolution: {integrity: sha512-dX8BmtE6Ai15tvv4wvouJqMg8G5dSmdUGNB3qbUNK06vt8jKAi91X6hk3eXajQUIjsDIDUbD4Q0mHGl4NIILXQ==}
+  react@0.0.0-experimental-098d2e87-20261015:
+    resolution: {integrity: sha512-kllWBRs/dZL0VRwGHZMOHMc4S9JigZsm7RJplyHX5vazHkSMTlGkL8XTTYcCpYiIuRHJT5kkKMaAqFpPshpYig==}
     engines: {node: '>=0.10.0'}
 
   readdirp@3.6.0:
@@ -1021,8 +1003,8 @@ packages:
   safe-buffer@5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
 
-  scheduler@0.0.0-experimental-b618bbb4-20261007:
-    resolution: {integrity: sha512-oEq2bn8d00QwhQ7JoPK1M4qmXtqTOtFkxxYmmXnAIJ3VaQ7hTMXl3acA4KjaKkpfdz+nxIbof4qLyOcr4zsvOQ==}
+  scheduler@0.0.0-experimental-098d2e87-20261015:
+    resolution: {integrity: sha512-NO+v8DlI0bmgAlvxVgT/ADimlmLecl1CJLmXrlF2nocNCcFPAyWHhwa2OuuaiSBxosV0MwSX7EnQ2BaTw9WNLQ==}
 
   semver@5.7.2:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
@@ -1077,8 +1059,8 @@ packages:
     resolution: {integrity: sha512-5Zfuy9q/DFr4tfO7ZPeVXb1aPoeQSdeFMLpYuFebehDAhbuevLs5yxSZmIFN1tP5F9Wl4IpJrYojg85/zgyZHQ==}
     engines: {node: '>=4'}
 
-  update-browserslist-db@1.2.3:
-    resolution: {integrity: sha512-Js0m9cx+qOgDxo0eMiFGEueWztz+d4+M3rGlmKPT+T4IS/jP4ylw3Nwpu6cpTTP8R1MAC1kF4VbdLt3ARf209w==}
+  update-browserslist-db@1.3.4:
+    resolution: {integrity: sha512-t8wonIOdQyOjtPd2VktlBu6QjTVTks6v8bSi7kd0r2Vll8TK1JYDZtRRdbmCHOAMphkZgrzK+L+vXK4pyZ8t4A==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -1157,14 +1139,14 @@ snapshots:
       '@babel/compat-data': 7.17.10
       '@babel/core': 7.29.6
       '@babel/helper-validator-option': 7.16.7
-      browserslist: 4.20.3
+      browserslist: 4.29.3
       semver: 6.3.1
 
   '@babel/helper-compilation-targets@7.29.7':
     dependencies:
       '@babel/compat-data': 7.29.7
       '@babel/helper-validator-option': 7.29.7
-      browserslist: 4.28.4
+      browserslist: 4.29.3
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -1971,7 +1953,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  baseline-browser-mapping@2.10.38: {}
+  baseline-browser-mapping@2.11.28: {}
 
   binary-extensions@2.2.0:
     optional: true
@@ -1986,30 +1968,20 @@ snapshots:
       fill-range: 7.1.1
     optional: true
 
-  browserslist@4.20.3:
+  browserslist@4.29.3:
     dependencies:
-      caniuse-lite: 1.0.30001341
-      electron-to-chromium: 1.4.137
-      escalade: 3.1.1
-      node-releases: 2.0.4
-      picocolors: 1.1.1
-
-  browserslist@4.28.4:
-    dependencies:
-      baseline-browser-mapping: 2.10.38
-      caniuse-lite: 1.0.30001799
-      electron-to-chromium: 1.5.378
-      node-releases: 2.0.49
-      update-browserslist-db: 1.2.3(browserslist@4.28.4)
+      baseline-browser-mapping: 2.11.28
+      caniuse-lite: 1.0.30001816
+      electron-to-chromium: 1.5.456
+      node-releases: 2.0.59
+      update-browserslist-db: 1.3.4(browserslist@4.29.3)
 
   call-bind@1.0.2:
     dependencies:
       function-bind: 1.1.1
       get-intrinsic: 1.1.1
 
-  caniuse-lite@1.0.30001341: {}
-
-  caniuse-lite@1.0.30001799: {}
+  caniuse-lite@1.0.30001816: {}
 
   chokidar@3.5.3:
     dependencies:
@@ -2036,7 +2008,7 @@ snapshots:
 
   core-js-compat@3.22.5:
     dependencies:
-      browserslist: 4.20.3
+      browserslist: 4.29.3
       semver: 7.0.0
 
   debug@4.4.3:
@@ -2048,11 +2020,7 @@ snapshots:
       has-property-descriptors: 1.0.0
       object-keys: 1.1.1
 
-  electron-to-chromium@1.4.137: {}
-
-  electron-to-chromium@1.5.378: {}
-
-  escalade@3.1.1: {}
+  electron-to-chromium@1.5.456: {}
 
   escalade@3.2.0: {}
 
@@ -2158,9 +2126,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  node-releases@2.0.4: {}
-
-  node-releases@2.0.49: {}
+  node-releases@2.0.59: {}
 
   normalize-path@3.0.0:
     optional: true
@@ -2189,12 +2155,12 @@ snapshots:
 
   pify@4.0.1: {}
 
-  react-dom@0.0.0-experimental-b618bbb4-20261007(react@0.0.0-experimental-b618bbb4-20261007):
+  react-dom@0.0.0-experimental-098d2e87-20261015(react@0.0.0-experimental-098d2e87-20261015):
     dependencies:
-      react: 0.0.0-experimental-b618bbb4-20261007
-      scheduler: 0.0.0-experimental-b618bbb4-20261007
+      react: 0.0.0-experimental-098d2e87-20261015
+      scheduler: 0.0.0-experimental-098d2e87-20261015
 
-  react@0.0.0-experimental-b618bbb4-20261007: {}
+  react@0.0.0-experimental-098d2e87-20261015: {}
 
   readdirp@3.6.0:
     dependencies:
@@ -2236,7 +2202,7 @@ snapshots:
 
   safe-buffer@5.1.2: {}
 
-  scheduler@0.0.0-experimental-b618bbb4-20261007: {}
+  scheduler@0.0.0-experimental-098d2e87-20261015: {}
 
   semver@5.7.2: {}
 
@@ -2270,9 +2236,9 @@ snapshots:
 
   unicode-property-aliases-ecmascript@2.0.0: {}
 
-  update-browserslist-db@1.2.3(browserslist@4.28.4):
+  update-browserslist-db@1.3.4(browserslist@4.29.3):
     dependencies:
-      browserslist: 4.28.4
+      browserslist: 4.29.3
       escalade: 3.2.0
       picocolors: 1.1.1
 
