@@ -34,10 +34,10 @@ importers:
         version: 7.18.0
       react:
         specifier: experimental
-        version: 0.0.0-experimental-b618bbb4-20261007
+        version: 0.0.0-experimental-098d2e87-20261015
       react-dom:
         specifier: experimental
-        version: 0.0.0-experimental-b618bbb4-20261007(react@0.0.0-experimental-b618bbb4-20261007)
+        version: 0.0.0-experimental-098d2e87-20261015(react@0.0.0-experimental-098d2e87-20261015)
       typescript:
         specifier: ^4.6.4
         version: 4.6.4
@@ -969,21 +969,21 @@ packages:
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
-  picomatch@2.3.1:
-    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
+  picomatch@2.3.2:
+    resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
     engines: {node: '>=8.6'}
 
   pify@4.0.1:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
 
-  react-dom@0.0.0-experimental-b618bbb4-20261007:
-    resolution: {integrity: sha512-DXGHjHDdozS7p6D6K9pMtAIAyEVzuSjXpyzcaN10j1p4Z9xbgSWkGQdclTvZbNo3lOFv23HFkLsQO084NWIidA==}
+  react-dom@0.0.0-experimental-098d2e87-20261015:
+    resolution: {integrity: sha512-DokPfdIxHkf/ZzHREP+GVnVf9P5X1aXWxQhaFeslUVRCOopwUhpeXVWxIbLjcBUTCORyqg+c7zaIfq5KNStKaA==}
     peerDependencies:
-      react: 0.0.0-experimental-b618bbb4-20261007
+      react: 0.0.0-experimental-098d2e87-20261015
 
-  react@0.0.0-experimental-b618bbb4-20261007:
-    resolution: {integrity: sha512-dX8BmtE6Ai15tvv4wvouJqMg8G5dSmdUGNB3qbUNK06vt8jKAi91X6hk3eXajQUIjsDIDUbD4Q0mHGl4NIILXQ==}
+  react@0.0.0-experimental-098d2e87-20261015:
+    resolution: {integrity: sha512-kllWBRs/dZL0VRwGHZMOHMc4S9JigZsm7RJplyHX5vazHkSMTlGkL8XTTYcCpYiIuRHJT5kkKMaAqFpPshpYig==}
     engines: {node: '>=0.10.0'}
 
   readdirp@3.6.0:
@@ -1021,8 +1021,8 @@ packages:
   safe-buffer@5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
 
-  scheduler@0.0.0-experimental-b618bbb4-20261007:
-    resolution: {integrity: sha512-oEq2bn8d00QwhQ7JoPK1M4qmXtqTOtFkxxYmmXnAIJ3VaQ7hTMXl3acA4KjaKkpfdz+nxIbof4qLyOcr4zsvOQ==}
+  scheduler@0.0.0-experimental-098d2e87-20261015:
+    resolution: {integrity: sha512-NO+v8DlI0bmgAlvxVgT/ADimlmLecl1CJLmXrlF2nocNCcFPAyWHhwa2OuuaiSBxosV0MwSX7EnQ2BaTw9WNLQ==}
 
   semver@5.7.2:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
@@ -1938,7 +1938,7 @@ snapshots:
   anymatch@3.1.2:
     dependencies:
       normalize-path: 3.0.0
-      picomatch: 2.3.1
+      picomatch: 2.3.2
     optional: true
 
   babel-plugin-dynamic-import-node@2.3.3:
@@ -2184,21 +2184,21 @@ snapshots:
 
   picocolors@1.1.1: {}
 
-  picomatch@2.3.1:
+  picomatch@2.3.2:
     optional: true
 
   pify@4.0.1: {}
 
-  react-dom@0.0.0-experimental-b618bbb4-20261007(react@0.0.0-experimental-b618bbb4-20261007):
+  react-dom@0.0.0-experimental-098d2e87-20261015(react@0.0.0-experimental-098d2e87-20261015):
     dependencies:
-      react: 0.0.0-experimental-b618bbb4-20261007
-      scheduler: 0.0.0-experimental-b618bbb4-20261007
+      react: 0.0.0-experimental-098d2e87-20261015
+      scheduler: 0.0.0-experimental-098d2e87-20261015
 
-  react@0.0.0-experimental-b618bbb4-20261007: {}
+  react@0.0.0-experimental-098d2e87-20261015: {}
 
   readdirp@3.6.0:
     dependencies:
-      picomatch: 2.3.1
+      picomatch: 2.3.2
     optional: true
 
   regenerate-unicode-properties@10.0.1:
@@ -2236,7 +2236,7 @@ snapshots:
 
   safe-buffer@5.1.2: {}
 
-  scheduler@0.0.0-experimental-b618bbb4-20261007: {}
+  scheduler@0.0.0-experimental-098d2e87-20261015: {}
 
   semver@5.7.2: {}
 
